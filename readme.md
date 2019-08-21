@@ -14,3 +14,8 @@ Para logar no sistema, insira as credenciais email admin@email.com e a senha 123
 ## Uso do Sistema
 
 Após logar no sistema, este estará disponível para realizar as ações de CRUD tradicionais.
+
+## Uso do Envio de E-mails via Contato
+
+No método enviar em ContatoController, alterar para um email válido para confirmar o recebimento das mensagens 
+trocadas dentro do sistema ao testá-lo.

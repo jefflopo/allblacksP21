@@ -15,6 +15,9 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Route::get('/contato', 'ContatoController@index');
+Route::post('/contato/enviar', 'ContatoController@enviar');
+
 Route::resource('/torcedores', 'TorcedoresController');
 Route::post('/torcedores/busca', 'TorcedoresController@busca');
 Auth::routes();

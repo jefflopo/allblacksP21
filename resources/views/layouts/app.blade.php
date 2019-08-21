@@ -34,6 +34,7 @@
                     <!-- Left Side Of Navbar -->
                     <ul class="navbar-nav mr-auto">
                         <li><a class="nav-link" href="{{ url('torcedores') }}">{{ __('Torcedores') }}</a></li>
+                        <li><a class="nav-link" href="{{ url('contato') }}">{{ __('Contato') }}</a></li>
                     </ul>
 
                     <!-- Right Side Of Navbar -->
